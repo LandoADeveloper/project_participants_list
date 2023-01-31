@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+main {
+    width: 30vw;
+    margin: 10vh auto;
+    padding: 2vh 2vw;
+    border-radius: 15px;
+    border: thin solid blueviolet;
+    box-shadow: 0px 0px 40px red;
+}
+main h1 {
+    margin: 2vh auto;
+    width: fit-content;
+    color: blueviolet;
+}
+main form {
+    border-radius: 15px;
+    border: thick solid red;
+    margin: auto;
+    width: 90%;
+}
+main form input{
+    margin: 5vh auto;
+    width: fit-content;
+    display: block;
+
+}
+main form input[type="text"]{
+    width: 90%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1vh 2vw;;
+
+}
+main form input[type="button"]{
+    width: 90%;
+    margin: 2vh auto;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    
+}
+main section {
+    border-radius: 15px;
+    border: thin solid gray;
+    margin: 5vh auto;
+    width: 90%;
+    padding: 5vh 2vw;
+    color: white;
+}
